@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Header = () => {
-  return (<header>
+  return (
+  
+  <header>
   <div class="menu">
     <div class="btn-line"></div>
     <div class="btn-line"></div>
@@ -35,7 +37,8 @@ const Header = () => {
       </li>
     </ul>
   </nav>
-</header>);
-};
+</header>
+
+  )};
 
 export default Header;
